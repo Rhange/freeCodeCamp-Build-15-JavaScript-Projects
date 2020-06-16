@@ -224,9 +224,10 @@ nav {
 }
 /* BY DEFAULT HIDE LINKS */
 .links {
-  /* height: 0;
+  height: 0;
+  /* if not overflow: hidden, text will be shown */
   overflow: hidden;
-  transition: var(--transition); */
+  transition: var(--transition);
 }
 /* TOGGLE CLASS */
 .show-links {
